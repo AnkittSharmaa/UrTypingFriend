@@ -1,0 +1,21 @@
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 0;
+}
+
+.bottom .reset-button {
+  cursor: pointer;
+  -webkit-transition: .125s;
+  transition: .125s;
+  color: #444444;
+}
+
+.bottom .reset-button:hover {
+  color: #ededed;
+}
+/*# sourceMappingURL=Components.module.css.map */

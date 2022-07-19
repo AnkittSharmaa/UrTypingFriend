@@ -1,0 +1,64 @@
+@use "./styles/variables" as v;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto Mono");
+@import "././styles/scroll.scss";
+@import "./styles/Navbar.scss";
+@import "./styles/Test.scss";
+@import "./styles/About.scss";
+@import "./styles/ThemePallet.scss";
+@import "./styles//Result.scss";
+@import "./styles/Components.module.scss";
+@import "./styles/CommandLine.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* App */
+body {
+    font-family: v.$font;
+    // background: #3c4756;
+    // color: #f44c7f;
+    background: #171717;
+    color: #ededed;
+    user-select: none;
+    
+}
+
+.App {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

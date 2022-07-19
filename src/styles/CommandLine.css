@@ -1,0 +1,87 @@
+.commandLineWrapper {
+  background: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  padding: 15rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-animation: fade-in .4s;
+          animation: fade-in .4s;
+}
+
+.commandLineWrapper .commandLine {
+  background-color: #141414;
+  border-radius: 0.5rem;
+  width: 450px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.commandLineWrapper .commandLine .input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commandLineWrapper .commandLine .input-box .search-icon {
+  margin: 1.5px 1rem 0;
+}
+
+.commandLineWrapper .commandLine .input-box .input {
+  border: none;
+  border-radius: 0.5rem;
+  color: #ededed;
+  background: #141414;
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem 1rem 1rem 0;
+  width: 100%;
+}
+
+.commandLineWrapper .commandLine .suggestions {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: calc(100vh - 33.2rem);
+}
+
+.commandLineWrapper .commandLine .suggestions .cmdlist {
+  color: #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.commandLineWrapper .commandLine .suggestions .cmdlist:last-child {
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.commandLineWrapper .commandLine .suggestions .cmdlist.activeCmd {
+  background: #ededed;
+  color: #141414;
+  cursor: pointer;
+}
+/*# sourceMappingURL=CommandLine.css.map */

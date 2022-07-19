@@ -1,0 +1,42 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 1000px;
+  margin-top: 50px;
+  -webkit-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  -webkit-animation: fade-in .4s;
+          animation: fade-in .4s;
+}
+
+.about .section {
+  margin-bottom: 2rem;
+}
+
+.about .section .title {
+  color: #444444;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 0 0 1rem;
+}
+
+
+
+.about .section h1 {
+  color: #444444;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+
+.about .section p {
+  color: #ededed;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,35 @@
+.result {
+    display: flex;
+    flex-direction: column;
+
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px 0;
+
+        @media screen and (max-width: v.$small) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        & > div {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            .img {
+                width: 180px;
+                height: 180px;
+                background-color: #9d00ff3d;
+            }
+
+            p {
+                font-size: 2rem;
+                line-height: 60px;
+                border-top: 2px solid #fff;
+                margin-top: 20px;
+            }
+        }
+    }
+}

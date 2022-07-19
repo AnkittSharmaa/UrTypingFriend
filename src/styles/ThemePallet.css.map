@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,QAAQ,EAAE,KAAK;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "ThemePallet.scss"
+    ],
+    "names": [],
+    "file": "ThemePallet.css"
+}

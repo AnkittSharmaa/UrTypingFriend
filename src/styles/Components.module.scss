@@ -1,0 +1,16 @@
+// Reset Button
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+
+    .reset-button {
+        cursor: pointer;
+        transition: .125s;
+        color: #444444;
+    
+        &:hover{
+            color: #ededed;
+        }
+    }
+}

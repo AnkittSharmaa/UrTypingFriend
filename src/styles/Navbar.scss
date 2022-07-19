@@ -1,0 +1,44 @@
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+    @media screen and (min-width: v.$small) {
+        width: 100%;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 50px 0 25px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+
+    & .button {
+        font-size: 35px;
+        margin: 0.5rem;
+        display: flex;
+        align-items: center;
+        transition: .15s;
+        color: #9e04bd;                                             //highlight color
+
+        &:hover {
+            color: #ededed;
+        }
+    }
+}

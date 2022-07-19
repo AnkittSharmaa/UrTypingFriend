@@ -1,0 +1,113 @@
+.typingTest {
+  -webkit-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  -webkit-animation: fade-in .4s;
+          animation: fade-in .4s;
+}
+
+.typingTest .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.typingTest .timer {
+  color: #9e04bd;
+  font-size: 1.5rem;
+  margin-left: 0.37rem;
+}
+
+.typingTest .wordWrapper {
+  overflow: hidden;
+  height: 108px;
+  margin: 1rem 0 2.5rem;
+}
+
+.typingTest .wordWrapper .type-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  height: 156px;
+  padding-bottom: 1em;
+  color: #444444;
+}
+
+.typingTest .wordWrapper .type-box .word {
+  position: relative;
+  margin: 0 0.37rem 0.74rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  -webkit-animation: fade-in .4s;
+          animation: fade-in .4s;
+}
+
+.typingTest .wordWrapper .type-box .word.wrong {
+  border-bottom: 2px solid #9e04bd;
+}
+
+.typingTest .wordWrapper .type-box span.right {
+  color: #ededed;
+}
+
+.typingTest .wordWrapper .type-box span.wrong {
+  color: #cf0000;
+}
+
+.typingTest .wordWrapper .type-box .extra {
+  opacity: 0.6;
+}
+
+.typingTest .wordWrapper .type-box #caret {
+  -webkit-transition: left 0.1s ease;
+  transition: left 0.1s ease;
+  margin-left: -7.29165px;
+  width: 2px;
+  position: absolute;
+  color: #9e04bd;
+}
+
+.typingTest .wordWrapper .type-box #caret.blink {
+  -webkit-animation: blink 1.5s infinite 1s;
+          animation: blink 1.5s infinite 1s;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=Test.css.map */

@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444444;
+  -webkit-transition: .125s;
+  transition: .125s;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ededed;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #9e04bd;
+}
+
+::-webkit-scrollbar-corner {
+  background: #444444;
+}
+/*# sourceMappingURL=scroll.css.map */
