@@ -26,3 +26,8 @@ npm run build
 
 - React JS
 - SCSS
+
+## Screenshots
+<a href='https://www.linkpicture.com/view.php?img=LPic62ee4489ef5491919207059'><img src='https://www.linkpicture.com/q/Screenshot-from-2022-08-06-16-06-14.png' type='image'></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic62ee4489ef5491919207059'><img src='https://www.linkpicture.com/q/Screenshot-from-2022-08-06-16-07-13.png' type='image'></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic62ee4489ef5491919207059'><img src='https://www.linkpicture.com/q/Screenshot-from-2022-08-06-16-07-17.png' type='image'></a>
